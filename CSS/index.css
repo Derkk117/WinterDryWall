@@ -8,10 +8,11 @@
 body {
     max-width: 2400px;
     min-width: 350px;
-    background: url("../Imagenes/Winterdwlogotipo.png") no-repeat center / 40% fixed, url("../Imagenes/Inicio/portada.png") no-repeat center /cover fixed;
+    background: url("../Imagenes/Inicio/portada.png") no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
     background-size: cover;
     -webkit-background-size: cover;
-    background: url("../Imagenes/Winterdwlogotipo.png") no-repeat center / 40% fixed, url("../Imagenes/Inicio/portada.png") no-repeat center /cover fixed;
 }
 
 .ContenedorGeneral {
