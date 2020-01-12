@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("Imagenes/Winterdwlogotipo.png") no-repeat center / 40% fixed, url("Imagenes/Inicio/portada.png") no-repeat center /cover fixed;
+    background: url("../Imagenes/Winterdwlogotipo.png") no-repeat center / 40% fixed, url("../Imagenes/Inicio/portada.png") no-repeat center /cover fixed;
     max-width: 2400px;
     min-width: 350px;
     margin: auto;
@@ -16,6 +16,7 @@ body {
     padding-top: 10%;
     background-color: black;
     margin-top: 86vh;
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 6%, 25% 6%, 0% 0%);
     clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 6%, 25% 6%, 0% 0%);
 }
 
@@ -70,11 +71,13 @@ div img {
 
 .OurProjects,
 .OurCustomers {
+    -webkit-clip-path: polygon(0% 0%, 100% 25%, 100% 75%, 0% 100%, 0% 0%);
     clip-path: polygon(0% 0%, 100% 25%, 100% 75%, 0% 100%, 0% 0%);
 }
 
 .Casa,
 .OurServices {
+    -webkit-clip-path: polygon(100% 0%, 0% 25%, 0% 75%, 100% 100%, 100% 0);
     clip-path: polygon(100% 0%, 0% 25%, 0% 75%, 100% 100%, 100% 0);
 }
 
@@ -85,9 +88,8 @@ div img {
 }
 
 .RedesSociales {
-    margin: 0;
     overflow: hidden;
-    padding: 0 15%;
+    padding: 0 30%;
     background-color: black;
     height: 100px;
     width: 100%;
@@ -98,7 +100,7 @@ div img {
 }
 
 .RedesSociales a {
-    margin: 0 5%;
+    padding: 0 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -136,6 +138,9 @@ div img {
     div img {
         height: 500px;
     }
+    .RedesSociales {
+        padding: 0 20%;
+    }
 }
 
 @media (max-width: 700px) {
@@ -167,5 +172,8 @@ div img {
     .OurServices,
     .OurCustomers {
         margin-top: -10%;
+    }
+    .RedesSociales {
+        padding: 0 10%;
     }
 }
