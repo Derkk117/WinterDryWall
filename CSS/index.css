@@ -6,10 +6,10 @@
 }
 
 body {
-    background: url("../Imagenes/Winterdwlogotipo.png") no-repeat top / 40% fixed, url("../Imagenes/Inicio/portada.png") no-repeat center /cover fixed;
+    -webkit-background: url("../Imagenes/Winterdwlogotipo.png") no-repeat center / 40% fixed, url("../Imagenes/Inicio/portada.png") no-repeat center /cover fixed;
+    background: url("../Imagenes/Winterdwlogotipo.png") no-repeat center / 40% fixed, url("../Imagenes/Inicio/portada.png") no-repeat center /cover fixed;
     max-width: 2400px;
     min-width: 350px;
-    margin: auto;
 }
 
 .ContenedorGeneral {
