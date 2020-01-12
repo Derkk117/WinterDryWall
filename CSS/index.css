@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("/Imagenes/Winterdwlogotipo.png") no-repeat center / 40% fixed, url("/Imagenes/Inicio/portada.png") no-repeat center /cover fixed;
+    max-width: 2400px;
+    min-width: 400px;
+    margin: auto;
+}
+
+.ContenedorGeneral {
+    padding-top: 10%;
+    background-color: black;
+    margin-top: 86vh;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 6%, 25% 6%, 0% 0%);
+}
+
+div img {
+    position: absolute;
+    height: 800px;
+    max-width: 2400px;
+    width: 100%
+}
+
+.Casa h4 {
+    margin: 20% 30% 0 10%;
+    position: absolute;
+    color: white;
+}
+
+.full {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fullS {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sub {
+    margin: 25% 15% 0 15%;
+}
+
+.sub p {
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    color: white;
+}
+
+.sub a {
+    font-size: 20px;
+    position: relative;
+    color: white;
+    border: white 1px solid;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.OurProjects,
+.OurCustomers {
+    clip-path: polygon(0% 0%, 100% 25%, 100% 75%, 0% 100%, 0% 0%);
+}
+
+.Casa,
+.OurServices {
+    clip-path: polygon(100% 0%, 0% 25%, 0% 75%, 100% 100%, 100% 0);
+}
+
+.OurProjects,
+.OurServices,
+.OurCustomers {
+    margin-top: -10%;
+}
+
+.RedesSociales {
+    margin: 0;
+    overflow: hidden;
+    padding: 0 15%;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.RedesSociales a {
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 100%;
+    width: 25%;
+}
+
+.RedesSociales p {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-size: 15px;
+}
+
+.RedesSociales img {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 80%;
+}
+
+@media (min-width:701px) and (max-width:1100px) {
+    .sub p {
+        font-size: 70px;
+    }
+    .full {
+        height: 500px;
+        width: 100%;
+    }
+    div img {
+        height: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .sub p {
+        font-size: 50px;
+    }
+    .full {
+        height: 350px;
+        widows: 100%;
+    }
+    section img {
+        position: absolute;
+        height: 350px;
+        width: 100%
+    }
+    .Casa h4 {
+        margin: 20% 30% 0 10%;
+        position: absolute;
+        color: white;
+    }
+    .OurProjects,
+    .OurServices,
+    .OurCustomers {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .OurProjects,
+    .OurServices,
+    .OurCustomers {
+        margin-top: -10%;
+    }
+}
