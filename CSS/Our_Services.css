@@ -1,3 +1,7 @@
 body:before {
     background: url("../Imagenes/OurServices/MainBackground.png") no-repeat center center /cover;
 }
+
+.Contenedor {
+    height: 70vh;
+}

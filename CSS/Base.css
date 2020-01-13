@@ -35,7 +35,6 @@ body {
 .Contenedor {
     margin-top: 80vh;
     position: relative;
-    height: 150vh;
 }
 
 .ContenedorAzul {
@@ -61,14 +60,14 @@ body {
     position: absolute;
     z-index: -2;
     width: 100%;
-    height: 150vh;
+    height: 100%;
     filter: drop-shadow(0 0 50px black);
 }
 
 .ShadowBackNegro {
     position: absolute;
     z-index: 1;
-    height: 150vh;
+    height: 100%;
     width: 100%;
     filter: drop-shadow(0 0 50px black);
 }
@@ -77,8 +76,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 150px 50px 0 15%;
-    text-align: justify;
+    padding: 150px 50px 0 50%;
+    text-align: right;
 }
 
 .Presentacion h2 {
@@ -115,7 +114,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        padding: 110px 50px 0 15%;
+        padding: 130px 50px 0 15%;
         text-align: justify;
     }
     .Presentacion h2 {
