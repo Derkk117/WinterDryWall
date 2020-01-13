@@ -25,6 +25,7 @@ body:before {
 }
 
 .Logos img {
+    object-fit: contain;
     width: 100%;
     height: 100%;
 }
@@ -35,6 +36,11 @@ body:before {
     justify-content: center;
     width: 30%;
     height: 300px;
+}
+
+.Logos div:hover {
+    background-color: rgba(0, 66, 106, 1);
+    transition: 0.5s;
 }
 
 @media(min-width:701px) and (max-width:1000px) {
@@ -52,13 +58,21 @@ body:before {
 
 @media (max-width:700px) {
     .Contenedor {
-        height: 350vh;
+        height: 270vh;
     }
     .Logos div {
-        margin: 50px 1.5%;
+        margin: 25px 1.5%;
         align-items: center;
         justify-content: center;
-        width: 80%;
-        height: 300px;
+        width: 70%;
+        height: 250px;
+    }
+    .ContenedorAzul {
+        -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 7%, 0% 0%);
+        clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 7%, 0% 0%);
+    }
+    .ContenedorNegro {
+        -webkit-clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 5%);
+        clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 5%);
     }
 }

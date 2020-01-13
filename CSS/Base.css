@@ -94,33 +94,19 @@ body {
         font-size: 40px;
     }
     .ContenedorAzul {
-        z-index: -2;
-        position: absolute;
-        background-color: rgba(0, 66, 104, 1);
-        width: 100%;
-        height: 100%;
         -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 12%, 0% 0%);
         clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 12%, 0% 0%);
     }
     .ContenedorNegro {
-        color: white;
-        background-color: rgba(0, 0, 0, 1);
-        width: 100%;
-        height: 100%;
         -webkit-clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 10%);
         clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 10%);
     }
     .Presentacion {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
         padding: 130px 50px 0 15%;
-        text-align: justify;
     }
     .Presentacion h2 {
         font-size: 50px;
         padding: 0 50px 0 20%;
-        text-align: center;
     }
 }
 
@@ -132,32 +118,33 @@ body {
         font-size: 30px;
     }
     .ContenedorAzul {
-        z-index: -2;
-        position: absolute;
-        background-color: rgba(0, 66, 104, 1);
-        width: 100%;
-        height: 100%;
         -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 12%, 0% 0%);
         clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 12%, 0% 0%);
     }
     .ContenedorNegro {
-        color: white;
-        background-color: rgba(0, 0, 0, 1);
-        width: 100%;
-        height: 100%;
         -webkit-clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 10%);
         clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 10%);
     }
     .Presentacion {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
         padding: 110px 50px 0 15%;
-        text-align: justify;
     }
     .Presentacion h2 {
-        font-size: 50px;
+        font-size: 25px;
         padding: 0 50px 0 20%;
-        text-align: center;
+    }
+    .ContactUs {
+        width: 300px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .ContactUs img {
+        width: 55px;
+    }
+    .Espacio {
+        width: 50px;
+        height: 50vh;
     }
 }
