@@ -12,7 +12,7 @@ body:before {
     left: 0;
     top: 0;
     width: 100%;
-    height: 98vh;
+    height: 100%;
     z-index: -10;
     background: url("../Imagenes/OurProjects/backportafolio.jpg") no-repeat center center /cover;
 }
@@ -78,17 +78,31 @@ body {
 .Presentacion {
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
+    align-items: flex-end;
+    padding: 110px 50px 0 15%;
+    text-align: justify;
+}
+
+.Presentacion h2 {
+    font-size: 50px;
+    padding: 0 50px 0 20%;
+    text-align: center;
 }
 
 @media(min-width:701px) and (max-width:1200px) {
     .Titulo h1 {
         font-size: 70px;
     }
+    .Presentacion h2 {
+        font-size: 40px;
+    }
 }
 
 @media (max-width:700px) {
     .Titulo h1 {
         font-size: 45px;
+    }
+    .Presentacion h2 {
+        font-size: 30px;
     }
 }
