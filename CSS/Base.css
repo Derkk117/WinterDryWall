@@ -44,8 +44,8 @@ body {
     background-color: rgba(0, 66, 104, 1);
     width: 100%;
     height: 100%;
-    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 12%, 0% 0%);
-    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 12%, 0% 0%);
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 17%, 0% 0%);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 17%, 0% 0%);
 }
 
 .ContenedorNegro {
@@ -53,9 +53,8 @@ body {
     background-color: rgba(0, 0, 0, 1);
     width: 100%;
     height: 100%;
-    filter: drop-shadow(0 0 50px black);
-    -webkit-clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 10%);
-    clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 10%);
+    -webkit-clip-path: polygon(0% 15%, 0% 100%, 100% 100%, 100% 0%, 0% 15%);
+    clip-path: polygon(0% 15%, 0% 100%, 100% 100%, 100% 0%, 0% 15%);
 }
 
 .ShadowBackAzul {
@@ -78,7 +77,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 110px 50px 0 15%;
+    padding: 150px 50px 0 15%;
     text-align: justify;
 }
 
@@ -95,6 +94,35 @@ body {
     .Presentacion h2 {
         font-size: 40px;
     }
+    .ContenedorAzul {
+        z-index: -2;
+        position: absolute;
+        background-color: rgba(0, 66, 104, 1);
+        width: 100%;
+        height: 100%;
+        -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 12%, 0% 0%);
+        clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 12%, 0% 0%);
+    }
+    .ContenedorNegro {
+        color: white;
+        background-color: rgba(0, 0, 0, 1);
+        width: 100%;
+        height: 100%;
+        -webkit-clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 10%);
+        clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 10%);
+    }
+    .Presentacion {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 110px 50px 0 15%;
+        text-align: justify;
+    }
+    .Presentacion h2 {
+        font-size: 50px;
+        padding: 0 50px 0 20%;
+        text-align: center;
+    }
 }
 
 @media (max-width:700px) {
@@ -103,5 +131,34 @@ body {
     }
     .Presentacion h2 {
         font-size: 30px;
+    }
+    .ContenedorAzul {
+        z-index: -2;
+        position: absolute;
+        background-color: rgba(0, 66, 104, 1);
+        width: 100%;
+        height: 100%;
+        -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 12%, 0% 0%);
+        clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 12%, 0% 0%);
+    }
+    .ContenedorNegro {
+        color: white;
+        background-color: rgba(0, 0, 0, 1);
+        width: 100%;
+        height: 100%;
+        -webkit-clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 10%);
+        clip-path: polygon(0% 10%, 0% 100%, 100% 100%, 100% 0%, 0% 10%);
+    }
+    .Presentacion {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 110px 50px 0 15%;
+        text-align: justify;
+    }
+    .Presentacion h2 {
+        font-size: 50px;
+        padding: 0 50px 0 20%;
+        text-align: center;
     }
 }
