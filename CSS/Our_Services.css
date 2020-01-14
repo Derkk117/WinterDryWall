@@ -14,11 +14,6 @@ body {
     min-width: 400px;
 }
 
-p {
-    font-size: 18px;
-    font-weight: normal;
-}
-
 .Contenedor {
     height: 2100px;
 }
@@ -84,12 +79,34 @@ p {
     margin-top: -150px;
 }
 
+hr {
+    border: none;
+    border-left: 2px solid white;
+    height: 40%;
+    width: 2px;
+    margin-left: 5%;
+}
+
+h2 {
+    margin-left: 5%;
+}
+
+p {
+    margin: 0 5%;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+}
+
 @media (min-width:701px) and (max-width:1200px) {
     .Metal,
     .Wood,
     .Texture {
         font-size: 50px;
         font-weight: bold;
+    }
+    p {
+        font-size: 17px;
     }
 }
 
@@ -124,11 +141,26 @@ p {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 36px;
+        font-size: 25px;
         font-weight: bold;
     }
     .Wood,
     .Texture {
         margin-top: -100px;
+    }
+    h2 {
+        margin-left: 15px;
+    }
+    hr {
+        border: none;
+        border-left: 2px solid white;
+        height: 40%;
+        width: 2px;
+    }
+    p {
+        margin: 0 15px;
+        font-size: 12px;
+        font-weight: normal;
+        text-align: left;
     }
 }
