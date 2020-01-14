@@ -69,6 +69,10 @@ body {
     height: 1050px;
 }
 
+.Presentacion p {
+    font-size: 25px;
+}
+
 @media (min-width:850px) and (max-width:1400px) {
     .Carrusel {
         height: 600px;
@@ -79,6 +83,12 @@ body {
 }
 
 @media (min-width:580px) and (max-width:849px) {
+    .Presentacion p {
+        font-size: 20px;
+    }
+    .Presentacion h2 {
+        font-size: 40px;
+    }
     .Carrusel {
         height: 400px;
     }
@@ -91,6 +101,12 @@ body {
 }
 
 @media (max-width:579px) {
+    .Presentacion h2 {
+        font-size: 25px;
+    }
+    .Presentacion p {
+        font-size: 15px;
+    }
     .Carrusel {
         height: 250px;
     }
