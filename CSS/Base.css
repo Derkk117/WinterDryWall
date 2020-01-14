@@ -66,7 +66,6 @@ body {
 
 .ShadowBackNegro {
     position: absolute;
-    z-index: 1;
     height: 100%;
     width: 100%;
     filter: drop-shadow(0 0 50px black);
@@ -93,9 +92,10 @@ body {
 }
 
 .ContactUs {
+    margin-top: -15px;
     width: fit-content;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 70px 25px 50px 25px;
+    padding: 85px 25px 50px 25px;
     color: white;
     display: flex;
     flex-direction: column;
