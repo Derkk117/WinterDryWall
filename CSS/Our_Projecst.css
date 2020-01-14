@@ -82,6 +82,9 @@ body {
     .Carrusel {
         height: 400px;
     }
+    .Imagen {
+        max-width: 90%;
+    }
     .Contenedor {
         height: 700px;
     }
