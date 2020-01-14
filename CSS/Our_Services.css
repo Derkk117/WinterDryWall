@@ -26,6 +26,8 @@ body:before {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 70px;
+    font-weight: bold;
 }
 
 .Metal {
@@ -46,7 +48,52 @@ body:before {
     background-position: center center;
 }
 
+.ContactUs {
+    padding-top: 200px;
+    margin-top: -200px;
+}
+
 .Wood,
 .Texture {
     margin-top: -150px;
+}
+
+@media (min-width:701px) and (max-width:1200px) {
+    .Metal,
+    .Wood,
+    .Texture {
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width:700px) {
+    .Contenedor {
+        height: 1300px;
+    }
+    .ContenedorAzul {
+        -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 1175px, 100% 125px, 0% 0%);
+        clip-path: polygon(0% 0%, 0% 100%, 100% 1175px, 100% 125px, 0% 0%);
+    }
+    .ContenedorNegro {
+        -webkit-clip-path: polygon(0% 200px, 0% 100%, 100% 1175px, 100% 0%, 0% 125px);
+        clip-path: polygon(0% 200px, 0% 100%, 100% 1175px, 100% 0%, 0% 125px);
+    }
+    .Metal,
+    .Wood,
+    .Texture {
+        width: 100%;
+        height: 500px;
+        -webkit-clip-path: polygon(100% 0%, 100% 75%, 0% 100%, 0% 25%, 100% 0%);
+        clip-path: polygon(100% 0%, 100% 75%, 0% 100%, 0% 25%, 100% 0%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        font-weight: bold;
+    }
+    .Wood,
+    .Texture {
+        margin-top: -100px;
+    }
 }
