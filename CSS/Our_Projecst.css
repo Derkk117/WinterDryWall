@@ -11,11 +11,11 @@ body:before {
 }
 
 body {
-    min-width: 400px;
+    min-width: 580px;
 }
 
 .Contenedor {
-    height: 1000px;
+    height: 1430px;
 }
 
 .Izquierda {
@@ -40,8 +40,15 @@ body {
     border: none;
 }
 
-.Imagen {
+.Renglon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+}
+
+.Imagen {
     height: 100%;
 }
 
@@ -49,16 +56,33 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
-    height: 80%;
+    height: 90%;
 }
 
 .Carrusel {
-    margin-top: 100px;
+    max-width: 1800px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
-    height: 500px;
+    height: 1050px;
+}
+
+@media (min-width:850px) and (max-width:1400px) {
+    .Carrusel {
+        height: 600px;
+    }
+    .Contenedor {
+        height: 900px;
+    }
+}
+
+@media (max-width:849px) {
+    .Carrusel {
+        height: 400px;
+    }
+    .Contenedor {
+        height: 700px;
+    }
 }
