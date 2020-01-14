@@ -3,5 +3,50 @@ body:before {
 }
 
 .Contenedor {
-    height: 70vh;
+    height: 2100px;
+}
+
+.ContenedorAzul {
+    -webkit-clip-path: polygon(0% 0%, 0% 100%, 100% 1900px, 100% 200px, 0% 0%);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 1900px, 100% 200px, 0% 0%);
+}
+
+.ContenedorNegro {
+    -webkit-clip-path: polygon(0% 200px, 0% 100%, 100% 1900px, 100% 0%, 0% 200px);
+    clip-path: polygon(0% 200px, 0% 100%, 100% 1900px, 100% 0%, 0% 200px);
+}
+
+.Metal,
+.Wood,
+.Texture {
+    width: 100%;
+    height: 800px;
+    -webkit-clip-path: polygon(100% 0%, 100% 75%, 0% 100%, 0% 25%, 100% 0%);
+    clip-path: polygon(100% 0%, 100% 75%, 0% 100%, 0% 25%, 100% 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Metal {
+    background-image: url("../Imagenes/OurServices/MetalFraming.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.Wood {
+    background-image: url("../Imagenes/OurServices/WoodFraming.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.Texture {
+    background-image: url("../Imagenes/OurServices/TextureFinish.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.Wood,
+.Texture {
+    margin-top: -150px;
 }

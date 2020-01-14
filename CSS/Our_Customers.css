@@ -10,7 +10,7 @@ body:before {
 }
 
 .Contenedor {
-    height: 150vh;
+    height: 1540px;
 }
 
 .Logos {
@@ -38,27 +38,25 @@ body:before {
     height: 300px;
 }
 
-.Logos div:hover {
-    background-color: rgba(0, 66, 106, 1);
-    transition: 0.5s;
-}
-
 @media(min-width:701px) and (max-width:1000px) {
     .Contenedor {
-        height: 180vh;
+        height: 1600px;
     }
     .Logos div {
         margin: 50px 1.5%;
         align-items: center;
         justify-content: center;
-        width: 40%;
-        height: 250px;
+        width: 35%;
+        height: 230px;
+    }
+    .Logos {
+        margin: 0 10%;
     }
 }
 
 @media (max-width:700px) {
     .Contenedor {
-        height: 270vh;
+        height: 2750px
     }
     .Logos div {
         margin: 25px 1.5%;
