@@ -11,7 +11,7 @@ body:before {
 }
 
 body {
-    min-width: 400px;
+    min-width: 350px;
 }
 
 .Contenedor {
@@ -19,7 +19,7 @@ body {
 }
 
 .ContenedorAzul {
-    z-index: -2;
+    z-index: 3;
     position: absolute;
     background-color: rgba(0, 66, 104, 1);
     width: 100%;
@@ -29,6 +29,7 @@ body {
 }
 
 .ContenedorNegro {
+    z-index: 5;
     color: white;
     background-color: rgba(0, 0, 0, 1);
     width: 100%;
@@ -69,25 +70,27 @@ body {
     background-position: center center;
 }
 
-.ContactUs {
-    padding-top: 200px;
-    margin-top: -200px;
-}
-
 .Wood,
 .Texture {
     margin-top: -150px;
 }
 
+.ContactUs {
+    padding-top: 200px;
+    margin-top: -200px;
+}
+
 hr {
     border: none;
     border-left: 2px solid white;
-    height: 40%;
+    height: 20%;
     width: 2px;
     margin-left: 5%;
 }
 
-h2 {
+.Wood h2,
+.Metal h2,
+.Texture h2 {
     margin-left: 5%;
 }
 
@@ -154,7 +157,7 @@ p {
     hr {
         border: none;
         border-left: 2px solid white;
-        height: 40%;
+        height: 30%;
         width: 2px;
     }
     p {

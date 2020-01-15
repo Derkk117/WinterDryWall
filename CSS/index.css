@@ -17,6 +17,14 @@
         background: url("../Imagenes/Winterdwlogotipo.png") no-repeat center center /40%, url("../Imagenes/Inicio/portada.png") no-repeat center center /cover;
     }
     
+    .Renglon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
     body {
         min-width: 400px;
     }

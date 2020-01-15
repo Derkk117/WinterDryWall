@@ -1,21 +1,22 @@
-body:before {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -10;
-    background: url("../Imagenes/OurProjects/backportafolio.jpg") no-repeat center center /cover;
-}
-
 body {
     min-width: 410px;
 }
 
 .Contenedor {
     height: 1480px;
+}
+
+body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: red;
+    width: 100%;
+    background: url("../Imagenes/OurProjects/backportafolio.jpg") no-repeat center center /cover;
+    height: 100%;
+    z-index: -10;
 }
 
 .Izquierda {
@@ -38,14 +39,6 @@ body {
     background-position: center;
     background-color: transparent;
     border: none;
-}
-
-.Renglon {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
 }
 
 .Imagen {
