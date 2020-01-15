@@ -17,14 +17,6 @@
         background: url("../Imagenes/Winterdwlogotipo.png") no-repeat center center /40%, url("../Imagenes/Inicio/portada.png") no-repeat center center /cover;
     }
     
-    .Renglon {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-    }
-    
     body {
         min-width: 400px;
     }
@@ -99,43 +91,40 @@
     }
     
     .RedesSociales {
+        margin: 25px 0;
+        color: white;
         overflow: hidden;
-        padding: 0 30%;
-        background-color: black;
-        height: 100px;
         width: 100%;
         display: flex;
         flex-direction: row;
+        flex-flow: wrap row;
         align-items: center;
         justify-content: space-around;
     }
     
-    .RedesSociales a {
-        padding: 0 5%;
+    .Renglon {
+        display: flex;
+        margin: 10px 15px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .Renglon a,
+    .Renglon img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .Contacto {
+        text-align: center;
+        margin: 10px 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-decoration: none;
-        justify-content: space-around;
-        position: relative;
+        justify-content: center;
         height: 100%;
-        width: 25%;
-    }
-    
-    .RedesSociales p {
-        color: white;
-        text-decoration: none;
-        margin: 0;
-        padding: 0;
-        position: relative;
-        font-size: 15px;
-    }
-    
-    .RedesSociales img {
-        margin: 0;
-        padding: 0;
-        position: relative;
-        height: 80%;
     }
     
     .Casa h4 {
